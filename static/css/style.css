@@ -1,0 +1,51 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.ib {
+	display:inline-block;
+}
+.wrapper{
+	width:900px;
+	margin:0px auto;
+}
+.wrapper > *{
+	margin-top: 20px;
+}
+.card {
+	width:200px;
+	height:200px;
+	margin-left: 10px;
+	display:inline-block;
+	border:1px solid black;
+	text-align:center;
+}
+.card *{
+	margin-top:20px;
+}
+.output{
+	border:1px solid black;
+}
+	.score{
+		width:100px;
+		height: 24px;
+		padding:4px;
+		vertical-align: center;
+		box-sizing: border-box;
+	}
+	.activity{
+		width:800px;
+		height:100px;
+		margin-left:10px;
+		overflow-y:scroll;
+	}
+.green{
+	color: green;
+}
+.red{
+	color: red;
+}
+.yellow{
+	color:yellow;
+}
